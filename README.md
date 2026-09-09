@@ -2,7 +2,7 @@
 
 prometheus deobfuscator — supports wearedevs fork + latest version · MIT
 
-by **LeakD** · [discord.gg/qteAQmfJmP](https://discord.gg/qteAQmfJmP)
+by **LeakD** · [https://leakd.vercel.app](https://leakd.vercel.app)
 
 ---
 
