@@ -45,7 +45,8 @@ function formatNumber(value) {
 
 const ESCAPES = { '\n': '\\n', '\r': '\\r', '\t': '\\t', '\\': '\\\\', '"': '\\"' };
 
-const UNPRINTABLE = new Set([0x00a0, 0x00ad, 0x2028, 0x2029, 0xfeff]);
+const UNPRINTABLE_POINTS = new Set([0x00a0, 0x00ad, 0x2028, 0x2029, 0xfeff]);
+const UNPRINTABLE = UNPRINTABLE_POINTS;
 
 function utf8Length(value, at) {
   const lead = value.charCodeAt(at);
