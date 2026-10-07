@@ -8,6 +8,7 @@ const { diverges, divergesBlock } = require('../util/flow');
 const TAILS = 8;
 
 const LOOPS = new Set([Kind.While, Kind.Repeat, Kind.NumericFor, Kind.GenericFor]);
+const LOOP_KINDS = LOOPS;
 
 const EXITS = new Set([Kind.Return, Kind.Break, Kind.Continue]);
 
